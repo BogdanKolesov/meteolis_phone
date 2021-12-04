@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meteolis.phone",
-    "slug": "meteolis.phone",
+    "name": "meteolis_phone",
+    "slug": "meteolis_phone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
