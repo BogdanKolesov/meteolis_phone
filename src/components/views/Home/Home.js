@@ -17,6 +17,12 @@ const Home = () => {
                     <Description>
                         Данный проект создан метеорологами для метеорологов.
                     </Description>
+                    <Description>
+                        Больше о нас Вы можете узнать по этой ссылке.
+                    </Description>
+                    <Description>
+                        Контакты
+                    </Description>
                 </TextContainer>
             </ScrollView>
         </SafeAreaView>
