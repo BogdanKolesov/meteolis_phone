@@ -1,2 +1,2 @@
-import Clacs from './Calcs'
+import Calcs from './Calcs'
 export default Calcs
