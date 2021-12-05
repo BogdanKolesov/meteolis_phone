@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import styled from 'styled-components/native';
-import { categoryData } from '../../../../categoryData';
+import { articlesData } from '../../../data/articlesData';
 import Category from '../../organismes/Category';
 
 const Articles = () => {
     return (
         <ArticlesContainer>
-            <Category categoryData={categoryData} />
+            <Category categoryData={articlesData} />
         </ArticlesContainer>
     );
 }
@@ -20,8 +20,4 @@ const ArticlesContainer = styled.View`
     padding-left: 5%;
     padding-right: 5%;
 `
-
-
-
-
 export default Articles;

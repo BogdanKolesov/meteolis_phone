@@ -34,6 +34,8 @@ const CategoryContainer = styled.TouchableOpacity`
     align-items: center;
     width: 45%;
     height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 `
 const CategoryContent = styled.View`
     justify-content: center;
@@ -45,9 +47,8 @@ const CategoryBackground = styled.Image`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%
+    width: 100%;
     height: 200px;
-    resizeMode: cover;
     z-index: 0;
     border-radius: 5px;
 `

@@ -28,18 +28,20 @@ const Home = () => {
 }
 
 const TextContainer = styled.View`
-    marginTop: 10px;
-    marginHorizontal: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
 `
 
 const Title = styled.Text`
     color: black;
-    fontSize: 40px;
-    fontWeight: bold;
+    font-size: 40px;
+    font-weight: bold;
 `
 const Description = styled.Text`
     color: black;
-    fontSize: 20px;
+    font-size: 20px;
 `
 
 const StyledImage = styled.Image`

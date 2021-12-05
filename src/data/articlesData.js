@@ -1,6 +1,6 @@
-import { CategoryImage1, CategoryImage2, CategoryImage3, CategoryImage4 } from './src/constants';
+import { CategoryImage1, CategoryImage2, CategoryImage3, CategoryImage4 } from '../constants';
 
-export const categoryData = [
+export const articlesData = [
     {
         category: 'Статьи',
         point: 'Для метеонаблюдателей',
