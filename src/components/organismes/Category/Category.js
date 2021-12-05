@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
+import { StyledText } from '../../atoms';
+
 
 const Category = ({ categoryData }) => {
     return (
@@ -9,8 +11,8 @@ const Category = ({ categoryData }) => {
                 categoryData.map((data, index) => (
                     <CategoryContainer activeOpacity={0.6} key={index} >
                         <CategoryContent>
-                            <Text>{data.category}</Text>
-                            <Text>{data.point}</Text>
+                            <StyledText bold bigText centred>{data.category}</StyledText>
+                            <StyledText centred lowercase>{data.point}</StyledText>
                         </CategoryContent>
                         <CategoryBackground source={data.image} />
                     </CategoryContainer>
@@ -36,12 +38,15 @@ const CategoryContainer = styled.TouchableOpacity`
     height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 `
 const CategoryContent = styled.View`
     justify-content: center;
     align-items: center;
     z-index: 1;
-
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10%;
+    border-radius: 5px;
 `
 const CategoryBackground = styled.Image`
     position: absolute;

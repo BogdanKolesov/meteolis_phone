@@ -1,40 +1,52 @@
-import { CategoryImage4, CategoryImage5, CategoryImage6, CategoryImage1, CategoryImage2, CategoryImage3, } from '../constants';
+import { BoltankaImage, FogImage, IceImage, NightImage, RainImage, ThunderImage, VngoImage, WindImage } from "../constants";
 
 export const calcsData = [
     {
         category: 'Прогноз',
         point: 'Гроз',
-        image: CategoryImage6,
+        image: ThunderImage,
         link: ''
     },
     {
         category: 'Прогноз',
         point: 'Туманов',
-        image: CategoryImage5,
+        image: FogImage,
         link: ''
     },
     {
         category: 'Прогноз',
         point: 'Высоты нижней границы облаков',
-        image: CategoryImage4,
+        image: VngoImage,
         link: ''
     },
     {
         category: 'Расчёт',
         point: 'Скорости ветра',
-        image: CategoryImage3,
+        image: WindImage,
         link: ''
     },
     {
         category: 'Прогноз',
         point: 'Болтанки',
-        image: CategoryImage2,
+        image: BoltankaImage,
         link: ''
     },
     {
         category: 'Прогноз',
         point: 'Обледенения',
-        image: CategoryImage1,
+        image: IceImage,
+        link: ''
+    },
+    {
+        category: 'Прогноз',
+        point: 'Осадков',
+        image: RainImage,
+        link: ''
+    },
+    {
+        category: 'Прогноз',
+        point: 'Ночного понижения температуры',
+        image: NightImage,
         link: ''
     }
 ]

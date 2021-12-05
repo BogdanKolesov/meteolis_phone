@@ -1,15 +1,28 @@
-import CategoryImage1 from '../assets/images/ui/category/1.jpg'
-import CategoryImage2 from '../assets/images/ui/category/2.jpg'
-import CategoryImage3 from '../assets/images/ui/category/3.jpg'
-import CategoryImage4 from '../assets/images/ui/category/4.jpg'
-import CategoryImage5 from '../assets/images/ui/category/5.jpg'
-import CategoryImage6 from '../assets/images/ui/category/6.jpg'
+import BirdImage from '../assets/images/ui/category/bird.jpg'
+import FogImage from '../assets/images/ui/category/fog.jpg'
+import IceImage from '../assets/images/ui/category/ice.jpg'
+import ThunderImage from '../assets/images/ui/category/thunder.jpg'
+import VngoImage from '../assets/images/ui/category/vngo.jpg'
+import WindImage from '../assets/images/ui/category/windConus.jpg'
+import BoltankaImage from '../assets/images/ui/category/boltanka.jpg'
+import BookImage from '../assets/images/ui/category/books.jpg'
+import WatcherImage from '../assets/images/ui/category/nabludatel.jpg'
+import SynopImage from '../assets/images/ui/category/synoptic.jpg'
+import RainImage from '../assets/images/ui/category/rain.jpg'
+import NightImage from '../assets/images/ui/category/night.jpg'
+
 
 export {
-    CategoryImage1,
-    CategoryImage2,
-    CategoryImage3,
-    CategoryImage4,
-    CategoryImage5,
-    CategoryImage6
+    BirdImage,
+    FogImage,
+    IceImage,
+    ThunderImage,
+    VngoImage,
+    WindImage,
+    BoltankaImage,
+    BookImage,
+    WatcherImage,
+    SynopImage,
+    RainImage,
+    NightImage
 }

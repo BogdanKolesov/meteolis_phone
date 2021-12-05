@@ -1,28 +1,28 @@
-import { CategoryImage1, CategoryImage2, CategoryImage3, CategoryImage4 } from '../constants';
+import { BirdImage, BookImage, SynopImage, WatcherImage } from "../constants";
 
 export const articlesData = [
     {
         category: 'Статьи',
         point: 'Для метеонаблюдателей',
-        image: CategoryImage1,
+        image: WatcherImage,
         link: ''
     },
     {
         category: 'Статьи',
         point: 'Для синоптиков',
-        image: CategoryImage2,
+        image: SynopImage,
         link: ''
     },
     {
         category: 'Статьи',
         point: 'Для всех',
-        image: CategoryImage3,
+        image: BookImage,
         link: ''
     },
     {
         category: 'Орнитология',
         point: 'Для метеорологического обеспечения',
-        image: CategoryImage4,
+        image: BirdImage,
         link: ''
     }
 ]
