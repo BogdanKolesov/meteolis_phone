@@ -5,7 +5,7 @@ export const calcsData = [
         category: 'Прогноз',
         point: 'Гроз',
         image: ThunderImage,
-        link: ''
+        link: 'Home'
     },
     {
         category: 'Прогноз',

@@ -2,14 +2,20 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 import { StyledText } from '../../atoms';
+import { useNavigation } from '@react-navigation/native';
 
 
 const Category = ({ categoryData }) => {
+    const navigation = useNavigation();
     return (
         <CategoryWrapper>
             {
                 categoryData.map((data, index) => (
-                    <CategoryContainer activeOpacity={0.6} key={index} >
+                    <CategoryContainer
+                        activeOpacity={0.6}
+                        key={index}
+                        onPress={() => navigation.navigate(data.link)}
+                    >
                         <CategoryContent>
                             <StyledText bold bigText centred>{data.category}</StyledText>
                             <StyledText centred lowercase>{data.point}</StyledText>

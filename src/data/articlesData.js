@@ -23,6 +23,6 @@ export const articlesData = [
         category: 'Орнитология',
         point: 'Для метеорологического обеспечения',
         image: BirdImage,
-        link: ''
+        link: 'Ornitology'
     }
 ]
