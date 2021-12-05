@@ -7,41 +7,39 @@ import WeatherMap from '../../../../assets/weatherMap.jpg'
 
 const Home = () => {
     return (
-        <SafeAreaView>
-            <ScrollView>
-                <TextContainer>
-                    <StyledImage source={WeatherMap} />
-                    <Title>
-                        Проект Meteolis
-                    </Title>
-                    <Description>
-                        Данный проект создан метеорологами для метеорологов.
-                    </Description>
-                    <Description>
-                        Больше о нас Вы можете узнать по этой ссылке.
-                    </Description>
-                    <Description>
-                        Контакты
-                    </Description>
-                </TextContainer>
-            </ScrollView>
-        </SafeAreaView>
+        <ScrollView>
+            <TextContainer>
+                <StyledImage source={WeatherMap} />
+                <Title>
+                    Проект Meteolis
+                </Title>
+                <Description>
+                    Данный проект создан метеорологами для метеорологов.
+                </Description>
+                <Description>
+                    Больше о нас Вы можете узнать по этой ссылке.
+                </Description>
+                <Description>
+                    Контакты
+                </Description>
+            </TextContainer>
+        </ScrollView>
     );
 }
 
 const TextContainer = styled.View`
-    marginTop: 10;
-    marginHorizontal: 10;
+    marginTop: 10px;
+    marginHorizontal: 10px;
 `
 
 const Title = styled.Text`
     color: black;
-    fontSize: 40;
+    fontSize: 40px;
     fontWeight: bold;
 `
 const Description = styled.Text`
     color: black;
-    fontSize: 20;
+    fontSize: 20px;
 `
 
 const StyledImage = styled.Image`
