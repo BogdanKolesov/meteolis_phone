@@ -1,4 +1,4 @@
-import { BirdImage, BookImage, SynopImage, WatcherImage } from "../constants";
+import { BirdImage, BookImage, SynopImage, WatcherImage } from "../constants/images";
 
 export const articlesData = [
     {

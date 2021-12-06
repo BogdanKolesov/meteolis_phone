@@ -11,5 +11,5 @@ export const navigationStackData = [
         name: 'Ornitology',
         component: Ornitology,
         options: { headerShown: false }
-    }
+    },
 ]

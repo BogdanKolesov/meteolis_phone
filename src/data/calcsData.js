@@ -1,4 +1,4 @@
-import { BoltankaImage, FogImage, IceImage, NightImage, RainImage, ThunderImage, VngoImage, WindImage } from "../constants";
+import { BoltankaImage, FogImage, IceImage, NightImage, RainImage, ThunderImage, VngoImage, WindImage } from "../constants/images";
 
 export const calcsData = [
     {
