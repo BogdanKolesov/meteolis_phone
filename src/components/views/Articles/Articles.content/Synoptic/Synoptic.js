@@ -1,5 +1,4 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
 import { synopticList } from '../../../../../data/listArticleData/synopticList';
 import { ScrollContainer } from '../../../../atoms';
 import ListArticles from '../../../../organismes/ListArticles';

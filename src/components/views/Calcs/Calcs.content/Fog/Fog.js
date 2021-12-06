@@ -1,15 +1,15 @@
 import React from 'react';
-import { everythingList } from '../../../../../data/listArticleData/everythingList';
+import { fogList } from '../../../../../data/listCalcsData/fogList';
 import { ScrollContainer } from '../../../../atoms';
 import ListArticles from '../../../../organismes/ListArticles';
 
-const Everything = () => {
+const Fog = () => {
     return (
         <ScrollContainer>
-            <ListArticles listArticlesData={everythingList} />
+            <ListArticles listArticlesData={fogList} />
         </ScrollContainer>
     );
 }
 
 
-export default Everything;
+export default Fog;

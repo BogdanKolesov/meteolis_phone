@@ -38,9 +38,8 @@ const ListArticleItem = styled.TouchableOpacity`
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.4);;
     margin: 6px;
-
 `
 
 export default ListArticles;

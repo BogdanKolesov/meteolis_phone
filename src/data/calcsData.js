@@ -5,48 +5,48 @@ export const calcsData = [
         category: 'Прогноз',
         point: 'Гроз',
         image: ThunderImage,
-        link: 'Home'
+        link: 'Thunder'
     },
     {
         category: 'Прогноз',
         point: 'Туманов',
         image: FogImage,
-        link: ''
+        link: 'Fog'
     },
     {
         category: 'Прогноз',
         point: 'Высоты нижней границы облаков',
         image: VngoImage,
-        link: ''
+        link: 'Vngo'
     },
     {
         category: 'Расчёт',
         point: 'Скорости ветра',
         image: WindImage,
-        link: ''
+        link: 'WindSpeed'
     },
     {
         category: 'Прогноз',
         point: 'Болтанки',
         image: BoltankaImage,
-        link: ''
+        link: 'Turbulence'
     },
     {
         category: 'Прогноз',
         point: 'Обледенения',
         image: IceImage,
-        link: ''
+        link: 'Icing'
     },
     {
         category: 'Прогноз',
         point: 'Осадков',
         image: RainImage,
-        link: ''
+        link: 'Precipitation'
     },
     {
         category: 'Прогноз',
-        point: 'Ночного понижения температуры',
+        point: 'температуры',
         image: NightImage,
-        link: ''
+        link: 'Temperature'
     }
 ]

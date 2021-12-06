@@ -1,15 +1,15 @@
 import React from 'react';
-import { everythingList } from '../../../../../data/listArticleData/everythingList';
+import { precipitationList } from '../../../../../data/listCalcsData/precipitationList';
 import { ScrollContainer } from '../../../../atoms';
 import ListArticles from '../../../../organismes/ListArticles';
 
-const Everything = () => {
+const Precipitation = () => {
     return (
         <ScrollContainer>
-            <ListArticles listArticlesData={everythingList} />
+            <ListArticles listArticlesData={precipitationList} />
         </ScrollContainer>
     );
 }
 
 
-export default Everything;
+export default Precipitation;

@@ -1,15 +1,15 @@
 import React from 'react';
-import { everythingList } from '../../../../../data/listArticleData/everythingList';
+import { vngoList } from '../../../../../data/listCalcsData/vngoList';
 import { ScrollContainer } from '../../../../atoms';
 import ListArticles from '../../../../organismes/ListArticles';
 
-const Everything = () => {
+const Vngo = () => {
     return (
         <ScrollContainer>
-            <ListArticles listArticlesData={everythingList} />
+            <ListArticles listArticlesData={vngoList} />
         </ScrollContainer>
     );
 }
 
 
-export default Everything;
+export default Vngo;
