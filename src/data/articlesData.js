@@ -5,19 +5,19 @@ export const articlesData = [
         category: 'Статьи',
         point: 'Для метеонаблюдателей',
         image: WatcherImage,
-        link: ''
+        link: 'Observer'
     },
     {
         category: 'Статьи',
         point: 'Для синоптиков',
         image: SynopImage,
-        link: ''
+        link: 'Synoptic'
     },
     {
         category: 'Статьи',
         point: 'Для всех',
         image: BookImage,
-        link: ''
+        link: 'Everything'
     },
     {
         category: 'Орнитология',
