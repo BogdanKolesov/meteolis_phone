@@ -5,7 +5,6 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Home from '../Home';
 import Articles from '../Articles';
 import Calcs from '../Calcs';
-import MetarTaf from '../MetarTaf';
 import MeteoMap from '../MeteoMap';
 import Codes from '../Codes';
 
@@ -21,10 +20,10 @@ const Main = () => {
         <>
             <Tab.Navigator initialRouteName='Home' screenOptions={screenOptions}>
                 <Tab.Screen
-                    name="Главная страница"
+                    name="О нас"
                     component={Home}
                     options={{
-                        tabBarLabel: 'Главная страница',
+                        tabBarLabel: 'О нас',
                         tabBarIcon: ({ color, size }) => (
                             <MaterialCommunityIcons name="home" color={color} size={30} />
                         ),

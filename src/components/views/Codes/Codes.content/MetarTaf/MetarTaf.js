@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Text, ScrollView } from 'react-native';
 import styled from 'styled-components/native';
-import { StyledButton, StyledInput, StyledText } from '../../atoms';
+import { StyledButton, StyledInput, StyledText } from '../../../../atoms';
 
 const MetarTaf = () => {
     return (

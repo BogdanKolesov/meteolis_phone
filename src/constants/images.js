@@ -10,6 +10,11 @@ import WatcherImage from '../../assets/images/ui/category/nabludatel.jpg'
 import SynopImage from '../../assets/images/ui/category/synoptic.jpg'
 import RainImage from '../../assets/images/ui/category/rain.jpg'
 import NightImage from '../../assets/images/ui/category/night.jpg'
+import MetarImage from '../../assets/images/ui/category/metarImage.jpg'
+import KNImage from '../../assets/images/ui/category/kn01Image.jpg'
+import KMI85Image from '../../assets/images/ui/category/kmi85.jpg'
+
+
 
 
 export {
@@ -24,5 +29,8 @@ export {
     WatcherImage,
     SynopImage,
     RainImage,
-    NightImage
+    NightImage,
+    MetarImage,
+    KNImage,
+    KMI85Image
 }

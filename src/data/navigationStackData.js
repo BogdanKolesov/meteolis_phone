@@ -11,7 +11,8 @@ import Turbulence from "../components/views/Calcs/Calcs.content/Turbulence";
 import Vngo from "../components/views/Calcs/Calcs.content/Vngo";
 import WindSpeed from "../components/views/Calcs/Calcs.content/WindSpeed";
 import Temperature from "../components/views/Calcs/Calcs.content/Temperature";
-import MetarTaf from "../components/views/MetarTaf";
+import MetarTaf from "../components/views/Codes/Codes.content/MetarTaf";
+
 
 export const navigationStackData = [
     {
