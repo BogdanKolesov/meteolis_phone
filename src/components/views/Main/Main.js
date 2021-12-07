@@ -6,6 +6,8 @@ import Home from '../Home';
 import Articles from '../Articles';
 import Calcs from '../Calcs';
 import MetarTaf from '../MetarTaf';
+import MeteoMap from '../MeteoMap';
+import Codes from '../Codes';
 
 const Tab = createBottomTabNavigator();
 
@@ -29,10 +31,10 @@ const Main = () => {
                     }}
                 />
                 <Tab.Screen
-                    name="Metar/Taf"
-                    component={MetarTaf}
+                    name="Codes"
+                    component={Codes}
                     options={{
-                        tabBarLabel: 'Metar/Taf',
+                        tabBarLabel: 'Коды',
                         tabBarIcon: ({ color, size }) => (
                             <MaterialCommunityIcons name="shield-airplane-outline" color={color} size={30} />
                         ),
@@ -49,12 +51,22 @@ const Main = () => {
                     }}
                 />
                 <Tab.Screen
-                    name="Расчётные методы"
+                    name="Прогнозы"
                     component={Calcs}
                     options={{
-                        tabBarLabel: 'Расчётные методы',
+                        tabBarLabel: 'Прогнозы',
                         tabBarIcon: ({ color, size }) => (
                             <MaterialCommunityIcons name="calculator" color={color} size={30} />
+                        ),
+                    }}
+                />
+                <Tab.Screen
+                    name="Карта"
+                    component={MeteoMap}
+                    options={{
+                        tabBarLabel: 'Карта',
+                        tabBarIcon: ({ color, size }) => (
+                            <MaterialCommunityIcons name="map-outline" color={color} size={30} />
                         ),
                     }}
                 />
