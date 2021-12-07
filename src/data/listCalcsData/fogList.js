@@ -1,62 +1,22 @@
 export const fogList = [
     {
-        title: 'Метод',
+        title: 'Прогноз радиациноого тумана',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз температуры туманообразования',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз адвективного тумана',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз радиационно-адвективного тумана',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз фронтального тумана',
         link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
+    }
 ]

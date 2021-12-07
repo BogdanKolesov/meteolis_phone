@@ -1,62 +1,22 @@
 export const precipitationList = [
     {
-        title: 'Метод',
+        title: 'Прогноз обложных осадков',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз моросящих осадков',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз ливневых осадков',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз фазового состояния осадков',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз видимости в осадках',
         link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
+    }
 ]

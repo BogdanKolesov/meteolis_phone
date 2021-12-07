@@ -1,62 +1,26 @@
 export const thunderList = [
     {
-        title: 'Метод',
+        title: 'Метод Лебедевой',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Метод Пескова',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Метод Фауста',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Метод Сосина',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз града',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз шквалов',
         link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
+    }
 ]

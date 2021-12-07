@@ -1,62 +1,22 @@
 export const turbulenceList = [
     {
-        title: 'Метод',
+        title: 'Интенсивность болтанки в зоне холодного фронта',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Интенсивность болтанки на тёплом фронте',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Интенсивность болтанки на холодном фронте',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Орографическая болтанка',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Болтанка в верхней тропосфере и нижней стратосфере',
         link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
+    }
 ]

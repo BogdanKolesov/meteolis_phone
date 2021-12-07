@@ -1,62 +1,14 @@
 export const temperatureList = [
     {
-        title: 'Метод',
+        title: 'Прогноз минимальной температуры воздуха',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз ночного понижения температуры',
         link: 'BirdOrder'
     },
     {
-        title: 'Метод',
+        title: 'Прогноз максимальной температуры воздуха',
         link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
-    {
-        title: 'Метод',
-        link: 'BirdOrder'
-    },
+    }
 ]
