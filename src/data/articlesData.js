@@ -1,4 +1,4 @@
-import { BirdImage, BookImage, SynopImage, WatcherImage } from "../constants/images";
+import { BirdImage, BookImage, SynopImage, TechImage, WatcherImage } from "../constants/images";
 
 export const articlesData = [
     {
@@ -24,5 +24,11 @@ export const articlesData = [
         point: 'Для метеорологического обеспечения',
         image: BirdImage,
         link: 'Ornitology'
+    },
+    {
+        category: 'Технические средства',
+        point: 'Метеорологической службы',
+        image: TechImage,
+        link: 'Tech'
     }
 ]

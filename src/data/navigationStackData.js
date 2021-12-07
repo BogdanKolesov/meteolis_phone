@@ -12,6 +12,7 @@ import Vngo from "../components/views/Calcs/Calcs.content/Vngo";
 import WindSpeed from "../components/views/Calcs/Calcs.content/WindSpeed";
 import Temperature from "../components/views/Calcs/Calcs.content/Temperature";
 import MetarTaf from "../components/views/Codes/Codes.content/MetarTaf";
+import Tech from "../components/views/Articles/Articles.content/Tech";
 
 
 export const navigationStackData = [
@@ -39,6 +40,11 @@ export const navigationStackData = [
     {
         name: 'Everything',
         component: Everything,
+        options: { headerShown: false }
+    },
+    {
+        name: 'Tech',
+        component: Tech,
         options: { headerShown: false }
     },
     //Данные из вкладки "Расчётные методы"

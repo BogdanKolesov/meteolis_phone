@@ -13,6 +13,8 @@ import NightImage from '../../assets/images/ui/category/night.jpg'
 import MetarImage from '../../assets/images/ui/category/metarImage.jpg'
 import KNImage from '../../assets/images/ui/category/kn01Image.jpg'
 import KMI85Image from '../../assets/images/ui/category/kmi85.jpg'
+import TechImage from '../../assets/images/ui/category/tech.jpg'
+
 
 
 
@@ -32,5 +34,6 @@ export {
     NightImage,
     MetarImage,
     KNImage,
-    KMI85Image
+    KMI85Image,
+    TechImage
 }
