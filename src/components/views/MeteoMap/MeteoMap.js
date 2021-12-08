@@ -2,11 +2,20 @@ import * as React from 'react';
 import MapView from 'react-native-maps';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import styled from 'styled-components/native';
+import mapStyle from './mapStyle.json'
 
 export default function MeteoMap() {
     return (
         <MapContainer>
-            <StyledMapView />
+            <StyledMapView
+                customMapStyle={mapStyle}
+                initialRegion={{
+                    latitude: 60,
+                    longitude: 30,
+                    latitudeDelta: 2,
+                    longitudeDelta: 2,
+                }}
+            />
         </MapContainer>
     );
 }
