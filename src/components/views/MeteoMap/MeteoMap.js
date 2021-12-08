@@ -1,13 +1,25 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import { StyledText } from '../../atoms';
+import * as React from 'react';
+import MapView from 'react-native-maps';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import styled from 'styled-components/native';
 
-const MeteoMap = () => {
+export default function MeteoMap() {
     return (
-        <View>
-            <StyledText bold >Meteo map</StyledText>
-        </View>
+        <MapContainer>
+            <StyledMapView />
+        </MapContainer>
     );
 }
 
-export default MeteoMap;
+
+const MapContainer = styled.View`
+    flex: 1;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+`
+
+const StyledMapView = styled(MapView)`
+    width: 100%;
+    height: 100%;
+`

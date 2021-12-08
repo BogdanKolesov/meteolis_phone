@@ -21,7 +21,7 @@ export const everythingList = [
     },
     {
         title: 'Атлас облаков',
-        link: 'BirdAtlas'
+        link: 'CloudAtlas'
     },
     {
         title: 'Виды технического осмотра и его периодичность',

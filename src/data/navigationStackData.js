@@ -13,6 +13,7 @@ import WindSpeed from "../components/views/Calcs/Calcs.content/WindSpeed";
 import Temperature from "../components/views/Calcs/Calcs.content/Temperature";
 import MetarTaf from "../components/views/Codes/Codes.content/MetarTaf";
 import Tech from "../components/views/Articles/Articles.content/Tech";
+import CloudAtlas from "../components/views/Articles/Articles.content/Everything/Everything.content/CloudAtlas";
 
 
 export const navigationStackData = [
@@ -92,6 +93,12 @@ export const navigationStackData = [
     {
         name: 'Metar/Taf',
         component: MetarTaf,
+        options: { headerShown: false }
+    },
+    //EVERYTHING
+    {
+        name: 'CloudAtlas',
+        component: CloudAtlas,
         options: { headerShown: false }
     },
 ]
