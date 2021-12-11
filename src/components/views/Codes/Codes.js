@@ -9,7 +9,7 @@ import Category from '../../organismes/Category';
 const Calcs = () => {
     return (
         <ScrollContainer>
-            <StyledText bold bigText centred>
+            <StyledText proto='h3' fontStyle='bold' bold centred>
                 Приём, кодирование и раскодирование метеорологических кодов
             </StyledText>
             <Category categoryData={CodesData} />

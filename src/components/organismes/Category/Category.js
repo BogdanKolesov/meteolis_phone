@@ -17,7 +17,7 @@ const Category = ({ categoryData }) => {
                         onPress={() => navigation.navigate(data.link)}
                     >
                         <CategoryContent>
-                            <StyledText bold bigText centred>{data.category}</StyledText>
+                            <StyledText proto='h2' bold fontStyle='bold' centred>{data.category}</StyledText>
                             <StyledText centred lowercase>{data.point}</StyledText>
                         </CategoryContent>
                         <CategoryBackground source={data.image} />

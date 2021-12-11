@@ -1,5 +1,9 @@
 export const thunderList = [
     {
+        title: 'Метод Вайтинга',
+        link: 'ThunderWaiting'
+    },
+    {
         title: 'Метод Лебедевой',
         link: 'BirdOrder'
     },

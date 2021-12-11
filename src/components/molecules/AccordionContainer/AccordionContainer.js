@@ -12,7 +12,7 @@ const AccordionContainer = ({ title, content }) => {
     return (
         <AccordionWrapper>
             <AccordionButton onPress={toggleAccordion}>
-                <StyledText bold bigText centred>{title}</StyledText>
+                <StyledText broto='h3' fontStyle='light' centred>{title}</StyledText>
             </AccordionButton>
             <AccordionContent active={active}>
                 {content}

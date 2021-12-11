@@ -17,7 +17,7 @@ const ListArticles = ({ listArticlesData }) => {
                         key={index}
                         onPress={() => navigation.navigate(data.link)}
                     >
-                        <StyledText bold centred>
+                        <StyledText proto='p' fontStyle='black' centred>
                             {data.title}
                         </StyledText>
                     </ListArticleItem>
