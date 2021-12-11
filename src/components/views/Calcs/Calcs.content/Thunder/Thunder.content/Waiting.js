@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { StyledButton, StyledInput, StyledText, Row, ScrollContainer } from '../../../../../atoms'
+import AccordionContainer from '../../../../../molecules/AccordionContainer';
 
 const Waiting = () => {
     const [t850, setT850] = useState('');
@@ -21,8 +22,15 @@ const Waiting = () => {
     }
     let res = calcWaiting()
 
+    const accordionContent = (
+        <StyledText>
+            Some content
+        </StyledText>
+    )
+
     return (
         <ScrollContainer>
+            <AccordionContainer title='Теоретическая часть' content={accordionContent} />
             <Row>
                 <StyledText >
                     Температура на поверхности 850 ГПа:

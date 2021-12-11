@@ -4,9 +4,9 @@ import styled from 'styled-components/native';
 import { StyledText } from '../../atoms';
 
 const AccordionContainer = ({ title, content }) => {
-    const [active, setActive] = useState(false);
+    const [active, setActive] = useState('close');
 
-    const toggleAccordion = () => setActive(active === false ? true : false);
+    const toggleAccordion = () => setActive(active === 'close' ? 'open' : 'close');
 
 
     return (
@@ -33,7 +33,7 @@ const AccordionButton = styled.TouchableOpacity`
 `
 
 const AccordionContent = styled.View`
-    display: ${({ active }) => active ? 'none' : 'flex'};
+    display: ${({ active }) => active === 'close' ? 'none' : 'flex'};
 `
 
 

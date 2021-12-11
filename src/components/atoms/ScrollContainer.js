@@ -8,5 +8,5 @@ export const ScrollContainer = styled.ScrollView`
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 3%;
+    padding-top: 5%;
 `
