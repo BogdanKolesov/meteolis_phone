@@ -4,6 +4,10 @@ export const thunderList = [
         link: 'ThunderWaiting'
     },
     {
+        title: 'Метод Фатеева',
+        link: 'ThunderFateev'
+    },
+    {
         title: 'Метод Лебедевой',
         link: 'BirdOrder'
     },

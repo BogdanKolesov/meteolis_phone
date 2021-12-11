@@ -14,7 +14,7 @@ const Waiting = () => {
     let result
     const calcWaiting = () => {
 
-        k = (2 * (t850 - td850) - (t700 - td700) - t500)
+        k = (2 * (Number(t850) - Number(td850)) - (Number(t700) - Number(td700)) - Number(t500))
         k > 25 ? result = 'Грозы'
             : k > 20 ? result = 'Местами грозы'
                 : result = 'Без гроз'
@@ -43,7 +43,7 @@ const Waiting = () => {
             </Row>
             <Row>
                 <StyledText>
-                    Точка росы на поверхности 850 ГПа
+                    Дефицит точки росы на поверхности 850 ГПа:
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
@@ -63,7 +63,7 @@ const Waiting = () => {
             </Row>
             <Row>
                 <StyledText>
-                    Точка росы на поверхности 700 ГПа
+                    Дефицит точки росы на поверхности 700 ГПа:
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'

@@ -5,5 +5,5 @@ export const Row = styled.View`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 `

@@ -60,8 +60,8 @@ const StyledImage = styled.Image`
 const StyledAnimation = styled(LottieView)`
     width: 100%;
     position: absolute;
-    bottom: 0;
-    left:0;
+    bottom: -70px;
+    left: 0;
 `
 
 export default Home;

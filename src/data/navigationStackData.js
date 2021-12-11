@@ -15,6 +15,7 @@ import MetarTaf from "../components/views/Codes/Codes.content/MetarTaf";
 import Tech from "../components/views/Articles/Articles.content/Tech";
 import CloudAtlas from "../components/views/Articles/Articles.content/Everything/Everything.content/CloudAtlas";
 import Waiting from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Waiting";
+import Fateev from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Fateev";
 
 
 export const navigationStackData = [
@@ -108,6 +109,11 @@ export const navigationStackData = [
     {
         name: 'ThunderWaiting',
         component: Waiting,
+        options: { headerShown: false }
+    },
+    {
+        name: 'ThunderFateev',
+        component: Fateev,
         options: { headerShown: false }
     },
 ]
