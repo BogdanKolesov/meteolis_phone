@@ -5,27 +5,49 @@ import AccordionContainer from '../../../../../molecules/AccordionContainer';
 
 const Waiting = () => {
     const [t850, setT850] = useState('');
-    const [td850, setTd850] = useState('');
+    const [deltatd850, setDeltatd850] = useState('');
     const [t700, setT700] = useState('');
-    const [td700, setTd700] = useState('');
+    const [deltatd700, setDeltatd700] = useState('');
     const [t500, setT500] = useState('');
 
     let k
     let result
     const calcWaiting = () => {
 
-        k = (2 * (Number(t850) - Number(td850)) - (Number(t700) - Number(td700)) - Number(t500))
-        k > 25 ? result = 'Грозы'
-            : k > 20 ? result = 'Местами грозы'
-                : result = 'Без гроз'
+        k = 2 * Number(t850) - Number(t500) - Number(deltatd850) - Number(deltatd700)
+        if (k < 20) {
+            result = 'Гроз ожидать не следует'
+        } else if (k == 20 || k == 25 || (k > 20 && k < 25)) {
+            result = 'Следует ожидать изолированные грозы'
+        } else if (k == 30 || (k > 25 && k < 30)) {
+            result = 'В прогнозе следует указать отдельные грозы'
+        } else if (k > 30) {
+            result = 'Грозы повсеместно'
+        }
         return `k = ${k}, ${result}`
     }
     let res = calcWaiting()
 
     const accordionContent = (
-        <StyledText>
-            Some content
-        </StyledText>
+        <>
+            <StyledText bold>Метод Вайтинга</StyledText>
+            <StyledText>
+                Основан на расчете по данным утреннего зондирования параметра К
+                К = 2Т850 –Т500 – D850 - D700
+                Т – температура,  D – дефицит температуры точки росы на соответствующем уровне
+                К меньше 20 - гроз ожидать не следует
+                20  К больше 25 - следует ожидать изолированные грозы
+                25 меньше К больше 30 - в прогнозе следует указывать отдельные грозы
+                К больше 30 – грозы повсеместно
+                Хорошие результаты при прогнозе гроз не по пункту, а по площади. 
+	Синоптик  строит карту изолиний коэффициента К через 5 единиц, начиная со значения 20. -> Очаг с максимальным значением коэффициента переносится по потоку на 12 часов, и в том районе, где этот очаг окажется, следует указывать грозы.
+            </StyledText>
+            <StyledText>
+                Метод получил достаточно широкое распространение по территории России.
+                Значения коэффициента К целесообразно уточнять для каждого пункта.
+                Иногда в рассчитанные значения коэффициента К вводится поправка на кривизну приземных изобар.
+            </StyledText>
+        </>
     )
 
     return (
@@ -47,8 +69,8 @@ const Waiting = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd850}
-                    value={td850}
+                    onChangeText={setDeltatd850}
+                    value={deltatd850}
                 />
             </Row>
             <Row>
@@ -67,8 +89,8 @@ const Waiting = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd700}
-                    value={td700}
+                    onChangeText={setDeltatd700}
+                    value={deltatd700}
                 />
             </Row>
             <Row>

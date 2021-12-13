@@ -5,18 +5,18 @@ import AccordionContainer from '../../../../../molecules/AccordionContainer';
 
 const Fateev = () => {
     const [t850, setT850] = useState(0);
-    const [td850, setTd850] = useState(0);
-    const [td700, setTd700] = useState(0);
+    const [deltatd850, setDeltatd850] = useState(0);
+    const [deltatd700, setDeltatd700] = useState(0);
     const [t500, setT500] = useState(0);
-    const [td500, setTd500] = useState(0);
-    const [td600, setTd600] = useState(0);
+    const [deltatd500, setDeltatd500] = useState(0);
+    const [deltatd600, setDeltatd600] = useState(0);
 
 
 
     let a
     let result
     const calcFateev = () => {
-        a = Number(t850) - Number(t500) - (Number(td850) + Number(td700) + Number(td600) + Number(td500))
+        a = Number(t850) - Number(t500) - (Number(deltatd850) + Number(deltatd700) + Number(deltatd600) + Number(deltatd500))
         a > 0 || a == 0 ? result = 'В прогнозе следует указывать грозу' : result = 'В прогнозе указывать грозу не следует'
         return `A = ${a}, ${result}`
     }
@@ -63,8 +63,8 @@ const Fateev = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd850}
-                    value={td850}
+                    onChangeText={setDeltatd850}
+                    value={deltatd850}
                 />
             </Row>
             <Row>
@@ -73,8 +73,8 @@ const Fateev = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd700}
-                    value={td700}
+                    onChangeText={setDeltatd700}
+                    value={deltatd700}
                 />
             </Row>
             <Row>
@@ -83,8 +83,8 @@ const Fateev = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd500}
-                    value={td500}
+                    onChangeText={setDeltatd500}
+                    value={deltatd500}
                 />
             </Row>
             <Row>
@@ -93,8 +93,8 @@ const Fateev = () => {
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
-                    onChangeText={setTd600}
-                    value={td600}
+                    onChangeText={setDeltatd600}
+                    value={deltatd600}
                 />
             </Row>
             <StyledText fontStyle='black' size='big' bold>Результат: {res}</StyledText>
