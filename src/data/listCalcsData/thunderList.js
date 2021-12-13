@@ -12,6 +12,10 @@ export const thunderList = [
         link: 'ThunderSweat'
     },
     {
+        title: 'Ki, число Вайтинга',
+        link: 'ThunderKi'
+    },
+    {
         title: 'Метод Лебедевой',
         link: 'BirdOrder'
     },

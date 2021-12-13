@@ -17,6 +17,7 @@ import CloudAtlas from "../components/views/Articles/Articles.content/Everything
 import Waiting from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Waiting";
 import Fateev from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Fateev";
 import Sweat from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Sweat";
+import Ki from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Ki";
 
 
 export const navigationStackData = [
@@ -120,6 +121,11 @@ export const navigationStackData = [
     {
         name: 'ThunderSweat',
         component: Sweat,
+        options: { headerShown: false }
+    },
+    {
+        name: 'ThunderKi',
+        component: Ki,
         options: { headerShown: false }
     },
 ]
