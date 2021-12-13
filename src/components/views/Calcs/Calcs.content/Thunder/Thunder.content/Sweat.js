@@ -99,7 +99,7 @@ const Sweat = () => {
             </Row>
             <Row>
                 <StyledText >
-                    Дефицит точки росы на поверхности 850 ГПа:
+                    Точка росы на поверхности 850 ГПа:
                 </StyledText>
                 <StyledInput
                     keyboardType='numeric'
