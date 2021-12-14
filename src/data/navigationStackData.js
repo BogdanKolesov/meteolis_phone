@@ -18,6 +18,9 @@ import Waiting from "../components/views/Calcs/Calcs.content/Thunder/Thunder.con
 import Fateev from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Fateev";
 import Sweat from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Sweat";
 import Ki from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Ki";
+import Ippolitov from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/Ippolitov";
+import VngoFormula from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/VngoFormula";
+import Ferrel from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/Ferrel";
 
 
 export const navigationStackData = [
@@ -126,6 +129,23 @@ export const navigationStackData = [
     {
         name: 'ThunderKi',
         component: Ki,
+        options: { headerShown: false }
+    },
+
+    //VNGO
+    {
+        name: 'VngoFerrel',
+        component: Ferrel,
+        options: { headerShown: false }
+    },
+    {
+        name: 'VngoIppolitov',
+        component: Ippolitov,
+        options: { headerShown: false }
+    },
+    {
+        name: 'VngoFormula',
+        component: VngoFormula,
         options: { headerShown: false }
     },
 ]
