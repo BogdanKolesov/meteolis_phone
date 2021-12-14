@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import { StyledButton, StyledInput, StyledText, Row, ScrollContainer } from '../../../../../atoms'
 import AccordionContainer from '../../../../../molecules/AccordionContainer';
 
-const Ki = () => {
+const Ferrel = () => {
     const [t, setT] = useState('');
     const [td, setTd] = useState('');
 
@@ -12,7 +12,7 @@ const Ki = () => {
     const calcFerrel = () => {
         let p
 
-        vngo = 122 * (Number(t - td))
+        vngo = 122 * (Number(t) - Number(td))
         return `Высота нижней границы облаков = ${vngo}`
     }
     let res = calcFerrel()
@@ -25,7 +25,7 @@ const Ki = () => {
             <StyledText>
                 Для определения высоты нижней границы облачности заметную
                 популярность получили формулы, выведенные с помощью экспериментов:
-                формула Ферреля: = 122 ∗ ( −Td)0
+                формула Ферреля: ВНГО = 122 ∗ ( T − Td)0
             </StyledText>
             <StyledText>
                 H– высота нижней границы облаков, (м);
@@ -65,4 +65,4 @@ const Ki = () => {
 }
 
 
-export default Ki;
+export default Ferrel;
