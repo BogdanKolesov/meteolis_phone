@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { StyledButton, StyledInput, StyledText, Row, ScrollContainer } from '../../../../../atoms'
+import Chartexample from '../../../../../atoms/ChartExample';
 import AccordionContainer from '../../../../../molecules/AccordionContainer';
 
 const Ferrel = () => {
@@ -60,6 +61,7 @@ const Ferrel = () => {
             </Row>
 
             <StyledText fontStyle='black' size='big' bold>{res}</StyledText>
+            <Chartexample />
         </ScrollContainer>
     );
 }
