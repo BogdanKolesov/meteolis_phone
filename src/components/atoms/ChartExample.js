@@ -17,7 +17,7 @@ const Chartexample = () => {
                 ]}
                 padding={{ left: 40, bottom: 20, right: 20, top: 20 }}
                 xDomain={{ min: 0, max: 10 }}
-                yDomain={{ min: 0, max: 20 }}
+                yDomain={{ min: 0, max: 200 }}
             >
                 <VerticalAxis tickCount={2} theme={{ labels: { formatter: (v) => v.toFixed(0) } }} />
                 <HorizontalAxis tickCount={5} />
@@ -35,7 +35,6 @@ const Chartexample = () => {
                         { x: 10, y: 12 },
                     ]}
                     tooltipComponent={<Tooltip />} smoothing='bezier' tension='0.3' theme={{ stroke: { color: 'green', width: 2 }, scatter: { default: { width: 4, height: 4, rx: 8 } } }} />
-
             </Chart>
         </View>
     );
