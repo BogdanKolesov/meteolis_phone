@@ -61,7 +61,6 @@ const Ferrel = () => {
             </Row>
 
             <StyledText fontStyle='black' size='big' bold>{res}</StyledText>
-            <Chartexample />
         </ScrollContainer>
     );
 }

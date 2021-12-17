@@ -21,6 +21,7 @@ import Ki from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/
 import Ippolitov from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/Ippolitov";
 import VngoFormula from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/VngoFormula";
 import Ferrel from "../components/views/Calcs/Calcs.content/Vngo/Vngo.content/Ferrel";
+import Baily from "../components/views/Calcs/Calcs.content/Thunder/Thunder.content/Baily";
 
 
 export const navigationStackData = [
@@ -131,6 +132,11 @@ export const navigationStackData = [
         component: Ki,
         options: { headerShown: false }
     },
+    {
+        name: 'ThunderBaily',
+        component: Baily,
+        options: { headerShown: false }
+    },
 
     //VNGO
     {
@@ -148,4 +154,5 @@ export const navigationStackData = [
         component: VngoFormula,
         options: { headerShown: false }
     },
+
 ]

@@ -16,6 +16,10 @@ export const thunderList = [
         link: 'ThunderKi'
     },
     {
+        title: 'Метод Бейли',
+        link: 'ThunderBaily'
+    },
+    {
         title: 'Метод Лебедевой',
         link: 'BirdOrder'
     },
