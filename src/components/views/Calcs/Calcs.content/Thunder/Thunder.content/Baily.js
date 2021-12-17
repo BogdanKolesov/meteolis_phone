@@ -176,7 +176,7 @@ const Baily = () => {
             </Row>
             <StyledButton onPress={res}><StyledText>Выполнить расчёт!</StyledText></StyledButton>
             <Chart
-                style={{ height: 400, width: 400 }}
+                style={{ height: 400, width: '100%' }}
                 data={[
                     { x: 0, y: 0 },
                 ]}
