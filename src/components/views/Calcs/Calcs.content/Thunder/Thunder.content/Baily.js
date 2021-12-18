@@ -3,7 +3,7 @@ import { View, StyleSheet, Text } from 'react-native';
 import { StyledButton, StyledInput, StyledText, Row, ScrollContainer } from '../../../../../atoms'
 import AccordionContainer from '../../../../../molecules/AccordionContainer';
 import { Chart, Line, Area, HorizontalAxis, VerticalAxis, Tooltip } from 'react-native-responsive-linechart'
-
+//
 
 const Baily = () => {
     const [deltaTd700, setDeltaTd700] = useState(0);
