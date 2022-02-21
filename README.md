@@ -1,1 +1,1 @@
-# Meteolis project. Mobile version. React Native.
+# Meteolis project. Mobile version. React Native
